@@ -845,6 +845,7 @@ iframe {
 }
 
 .card .img-fluid {
+    height: 100%;
     width: 100%;
 }
 
