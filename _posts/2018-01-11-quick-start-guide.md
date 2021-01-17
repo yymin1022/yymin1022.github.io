@@ -19,9 +19,9 @@ TEST POSTING
 
 #### So how do we do spoilers?
 
-~~ TEST CANCELING LINE ~~
+~~TEST CANCELING LINE~~
 
-### 내용숨기기(스포일러) 사용법
+> 내용숨기기(스포일러) 사용법
 
 ```html
 <span class="spoiler">My hidden paragraph here.</span>
