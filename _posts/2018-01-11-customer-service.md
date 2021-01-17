@@ -4,7 +4,7 @@ title:  "Inception Movie"
 author: LR
 categories: [ Jekyll, tutorial ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: "images/Thumbnails/201224 XPEnology CPU Info Change.png"
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 rating: 4.5
 ---
