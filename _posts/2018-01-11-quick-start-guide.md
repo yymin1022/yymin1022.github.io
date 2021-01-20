@@ -26,3 +26,4 @@ TEST POSTING
 ```html
 <span class="spoiler">My hidden paragraph here.</span>
 ```
+<span class="spoiler">SPOILER!!</span>
