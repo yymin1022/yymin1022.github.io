@@ -5,8 +5,8 @@ description: "대학생 1인 개발자의 험난한 앱개발 여정"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: '/'
-url: 'https://yymin1022.github.io'
-disqus: 'yymin1022-github-io'
+url: 'https://blog-lr.defcon.or.kr'
+disqus: 'blog-lr-defcon-or-kr'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
