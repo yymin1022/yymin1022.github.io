@@ -16,9 +16,7 @@ comments: true
   <li><a href="https://defcon.or.kr" target="_sub">Def:Con</a> - 대학생 프로그래밍 팀</li>
 </ul>
 
-<br/>
 <hr/>
-<br/>
 
 <h3>Projects</h3>
 <ul>
@@ -36,9 +34,7 @@ comments: true
   <li>...more on my <a href="https://github.com/yymin1022" target="_sub">Github</a></li>
 </ul>
 
-<br/>
 <hr/>
-<br/>
 
 <h3>Awards</h3>
 <ul>
@@ -47,9 +43,7 @@ comments: true
   <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다</li>
 </ul>
 
-<br/>
 <hr/>
-<br/>
 
 <h3>What can I do?</h3>
 <ul>
@@ -60,9 +54,7 @@ comments: true
   <li>Web : HTML(But it is not Programming) / JS / php / Python Flask</li>
 </ul>
 
-<br/>
 <hr/>
-<br/>
 
 <h3>Which devide am I using?</h3>
 <ul>
@@ -75,9 +67,7 @@ comments: true
   <li>Watch : LG Watch W7 with WearOS 2.0</li>
 </ul>
 
-<br/>
 <hr/>
-<br/>
 
 <h3>Contact Me Online</h3>
 
