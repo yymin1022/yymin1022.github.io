@@ -18,19 +18,24 @@ comments: true
 
 <hr/>
 
-<h3>Projects</h3>
+<h3>Developed Applications</h3>
 <ul>
-  <li>Android - <a href="https://github.com/yymin1022/AlwaysOnDisplay" target="_sub">Always On Display</a></li>
-  <li>Android - <a href="https://github.com/yymin1022/ScreenSaver" target="_sub">Screen Saver</a></li>
-  <li>Android - <a href="https://github.com/yymin1022/SeoulHealing" target="_sub">Soul Rest</a></li>
-  <li>Android - <a href="https://github.com/yymin1022/Taxi-Meter" target="_sub">Taxi Meter</a></li>
-  <li>Android Porting - <a href="https://github.com/yymin1022/IM-100_Keyboard" target="_sub">IM-100 Keyboard</a></li>
-  <li>Android Porting - <a href="https://github.com/yymin1022/IM-100_Music" target="_sub">IM-100 MusicPlayer</a></li>
-  <li>Android Porting - <a href="https://github.com/yymin1022/AlwaysOnDisplay" target="_sub">IM-100 Keyboard</a></li>
-  <li>Java - <a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">STONE Manager for Windows</a></li>
-  <li>Python - <a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">Synology DownloadStation Client</a></li>
-  <li>Python - <a href="https://github.com/yymin1022/CAU_Meal_Bot_Telegram" target="_sub">Telegram Chat Bot for CAU Meal Noti</a></li>
-  <li>Python Flask - <a href="https://github.com/yymin1022/DefCon_Server" target="_sub">Def:Con Web</a></li>
+  <li>Always On Display / <a href="https://app.defcon.or.kr/download-always-on-display" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/AlwaysOnDisplay" target="_sub">소스코드보기</a></li>
+  <li>Taxi Meter / <a href="https://app.defcon.or.kr/download-taxi-meter" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/Taxi-Meter" target="_sub">소스코드보기</a></li>
+</ul>
+
+<hr/>
+
+<h3>Other Projects</h3>
+<ul>
+  <li>Android - Screen Saver / <a href="https://github.com/yymin1022/ScreenSaver" target="_sub">소스코드</a></li>
+  <li>Android - Soul Rest / <a href="https://github.com/yymin1022/SeoulHealing" target="_sub">소스코드</a></li>
+  <li>Android Porting - IM-100 Keyboard / <a href="https://github.com/yymin1022/IM-100_Keyboard" target="_sub">소스코드</a></li>
+  <li>Android Porting - IM-100 MusicPlayer / <a href="https://github.com/yymin1022/IM-100_Music" target="_sub">소스코드</a></li>
+  <li>Java - STONE Manager for Windows / <a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">소스코드</a></li>
+  <li>Python - Synology DownloadStation Client / <a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드</a></li>
+  <li>Python - Telegram Chat Bot for CAU Meal Noti / <a href="https://github.com/yymin1022/CAU_Meal_Bot_Telegram" target="_sub">소스코드</a></li>
+  <li>Python Flask - Def:Con Web / <a href="https://defcon.or.kr" target="_sub">상세보기</a> / <a href="https://github.com/yymin1022/DefCon_Server" target="_sub">소스코드</a></li>
   <li>...more on my <a href="https://github.com/yymin1022" target="_sub">Github</a></li>
 </ul>
 
@@ -40,7 +45,7 @@ comments: true
 <ul>
   <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안</li>
   <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스</li>
-  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다</li>
+  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다 <a href="https://www.seoulappcontest.org/web/info/winnerView.do?idx=110&year=2019&type=win" target="_sub">상세보기</a></li>
 </ul>
 
 <hr/>
