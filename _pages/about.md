@@ -15,7 +15,9 @@ comments: true
   <li><a href="https://defcon.or.kr" target="_sub">Def:Con</a> - 대학생 프로그래밍 팀</li>
 </ul>
 
+<br/>
 <hr/>
+<br/>
 
 <h3>Projects</h3>
 <ul>
@@ -32,7 +34,10 @@ comments: true
   <li>Python Flask - <a href="https://github.com/yymin1022/DefCon_Server" target="_sub">Def:Con Web</a></li>
   <li>...more on my <a href="https://github.com/yymin1022" target="_sub">Github</a></li>
 </ul>
+
+<br/>
 <hr/>
+<br/>
 
 <h3>Awards</h3>
 <ul>
@@ -40,7 +45,10 @@ comments: true
   <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스</li>
   <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다</li>
 </ul>
+
+<br/>
 <hr/>
+<br/>
 
 <h3>What can I do?</h3>
 <ul>
@@ -50,7 +58,10 @@ comments: true
   <li>Python : Console / QT GUI / Telegram Bot</li>
   <li>Web : HTML(But it is not Programming) / JS / php / Python Flask</li>
 </ul>
+
+<br/>
 <hr/>
+<br/>
 
 <h3>Which devide am I using?</h3>
 <ul>
@@ -62,7 +73,10 @@ comments: true
            Cube iWork10 Ultimate with Windows10, Android 6.0</li>
   <li>Watch : LG Watch W7 with WearOS 2.0</li>
 </ul>
+
+<br/>
 <hr/>
+<br/>
 
 <h3>Contact Me Online</h3>
 
