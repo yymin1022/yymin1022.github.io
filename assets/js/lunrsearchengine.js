@@ -23,9 +23,9 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
 
 var idx = new lunr.Index;
 
-idx.ref('id')
-idx.field('title')
-idx.field('body')
+idx.ref('id');
+idx.field('title');
+idx.field('body');
 
 documents.forEach(function (doc) {
     idx.add(doc)
