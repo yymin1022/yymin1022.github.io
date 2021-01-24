@@ -6,6 +6,7 @@ comments: true
 ---
 
 <div class="row justify-content-between">
+<div class="col-md-8 pr-5">
 
 <h3>Who am I?</h3>
 <ul>
@@ -90,4 +91,5 @@ comments: true
 <br/>
 <a href="https://github.com/yymin1022" targe="_sub">Twitter</a>
 
+</div>
 </div>
