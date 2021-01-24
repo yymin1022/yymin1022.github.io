@@ -56,7 +56,7 @@ comments: true
 
 <hr/>
 
-<h3>Which devide am I using?</h3>
+<h3>Which device am I using?</h3>
 <ul>
   <li>PC : Ubuntu 20.04 LTS on LG Gram15 2019 with i5 8265u / DDR4 16GB / 512GB NVMe + 256GB SATA</li>
   <li>NAS : XPEnology 6.2.3 on ODroid H2 with Celeron J4105 / DDR4 16GB / 128GB NVMe + 2TB HDD + 16GB eMMC</li>
@@ -71,15 +71,15 @@ comments: true
 
 <h3>Contact Me Online</h3>
 
-<a href="https://github.com/yymin1022" targe="_sub">Github</a>
+<a href="https://github.com/yymin1022" target="_sub">Github</a>
 <br/>
-<a href="https://github.com/yymin1022" targe="_sub">Google Play</a>
+<a href="https://play.google.com/store/apps/developer?id=Dev.+LR" target="_sub">Google Play</a>
 <br/>
-<a href="https://github.com/yymin1022" targe="_sub">Facebook</a>
+<a href="https://www.facebook.com/profile.php?id=100007285635473" target="_sub">Facebook</a>
 <br/>
-<a href="https://github.com/yymin1022" targe="_sub">Instagram</a>
+<a href="https://instagram.com/useful_min" target="_sub">Instagram</a>
 <br/>
-<a href="https://github.com/yymin1022" targe="_sub">Twitter</a>
+<a href="https://twitter.com/yymin1022" target="_sub">Twitter</a>
 
 </div>
 </div>
