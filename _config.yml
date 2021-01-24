@@ -16,7 +16,7 @@ authors:
   LR:
     name: Dev. LR
     display_name: LR
-    profile_logo: 'assets/images/profile.png'
+    profile_logo: '/assets/images/profile.png'
     email: yymin1022@gmail.com
     web: https://defcon.or.kr
     twitter: https://twitter.com/yymin1022  
