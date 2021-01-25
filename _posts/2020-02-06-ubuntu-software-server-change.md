@@ -84,4 +84,4 @@ ubuntu@desktop:~$ sudo apt-get update
 지금까지,<br>
 LR이었습니다!
 
-<center/>
+</center>
