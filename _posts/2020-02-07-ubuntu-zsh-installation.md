@@ -5,7 +5,7 @@ author: LR
 categories: [ Linux, Ubuntu, Server ]
 image: "/images/Thumbnails/200207 Ubuntu zsh Installation.png"
 featured: false
-hidden: true
+hidden: false
 description: \#Linux \#Ubuntu \#Server
 ---
 
