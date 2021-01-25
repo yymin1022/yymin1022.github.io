@@ -11,15 +11,15 @@ description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Syn
 안녕하세요,<br>
 대학생 1인 개발자로 활동중인 LR입니다!
 
-오늘은, XPEnology OS에서 NVMe SSD를 이용한<br>
+오늘은, ```XPEnology``` 에서 NVMe SSD를 이용한<br>
 캐시 기능의 활성화 방법에 대해 작성해보고자 합니다.
 
 Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 저장소 캐시 기능을 지원해, 읽기와 쓰기 속도를 향상시킬 수 있습니다.
 
-하지만, XPEnology에서는 드라이버와 라이브러리 문제로 인해서 사용이 불가했는데요,
+하지만, ```XPEnology``` 에서는 드라이버와 라이브러리 문제로 인해서 사용이 불가했는데요,
 
-해외 XPEnology 포럼에서 XPEnology에서의 NVMe SSD 캐시 기능을<br>
+해외 ```XPEnology``` 포럼에서 ```XPEnology``` 에서의 NVMe SSD 캐시 기능을<br>
 활성화 할 수 있는 패치파일이 제작되어, 한번 이를 적용해보았습니다.
 
 먼저, 관련된 원본 포럼 게시글은 다음과 같습니다.
@@ -46,26 +46,26 @@ Synology NAS에서는 기본적으로 NVMe SSD를 이용한<br>
 </center>
 
 이후, 제어판에서 ssh 기능을 활성화해준 뒤<br>
-터미널이나 putty 등을 활용해 XPEnology에<br>
+```터미널```이나 ```putty``` 등을 활용해 ```XPEnology``` 에<br>
 ssh로 로그인 해줍니다.<br>
-이때 root 권한이 있는 admin 그룹의 계정으로 로그인해주셔야<br>
+이때 ```root 권한``` 이 있는 admin 그룹의 계정으로 로그인해주셔야<br>
 정상적으로 시스템에 패치를 진행할 수 있습니다.
 
 ssh에 정상적으로 접속되었다면,<br>
 파일을 저장한 위치로 이동합니다.<br>
 저는 볼륨1의 Download 공유폴더에 파일을 저장 해두었으므로,<br>
-/volume1/Download에 파일이 위치합니다.<br>
-파일이 저장된 올바른 위치로 cd 해줍니다.
+```/volume1/Download``` 에 파일이 위치합니다.<br>
+파일이 저장된 올바른 위치로 ```cd``` 해줍니다.
 
 <center>
 <img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/4_ssh_login.png" style="width: 75%;">
 </center>
 
-해당 디렉터리로 이동해 ls -al을 실행했을 때<br>
+해당 디렉터리로 이동해 ```ls -al```을 실행했을 때<br>
 sh 스크립트 파일과 라이브러리 파일이 정상적으로 보인다면<br>
 준비가 완료된 것입니다.
 
-이제, sudo 권한으로 sh파일을 실행해줍니다.
+이제, ```sudo``` 권한으로 sh파일을 실행해줍니다.
 
 <center>
 <img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/5_ssh_sh.png" style="width: 75%;">
@@ -75,7 +75,7 @@ sh 스크립트 파일과 라이브러리 파일이 정상적으로 보인다면
 다시 명령어 입력을 대기하는 상태로 돌아옵니다.<br>
 이제, 라이브러리 파일을 복사해주어야 합니다.<br>
 다음 명령어를 통해 라이브러리 파일을<br>
-/usr/lib64 디렉터리로 복사해줍니다.
+```/usr/lib64``` 디렉터리로 복사해줍니다.
 
 ```bash
 admin@Synology:/volume1/Download $ cp libsynonvme.so.1 /usr/lib64/libsynonvme.so.1
@@ -85,7 +85,7 @@ admin@Synology:/volume1/Download $ cp libsynonvme.so.1 /usr/lib64/libsynonvme.so
 <img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/6_ssh_lib.png" style="width: 75%;">
 </center>
 
-복사를 완료했다면, XPEnology를 재부팅 해줍니다.
+복사를 완료했다면, ```XPEnology``` 를 재부팅 해줍니다.
 
 <center>
 <img src="/images/PostImages/200830 XPEnology NVMe SSD Cache Enable/7_ssd_setup_1.png" style="width: 75%;">
@@ -100,7 +100,7 @@ admin@Synology:/volume1/Download $ cp libsynonvme.so.1 /usr/lib64/libsynonvme.so
 </center>
 
 SSD가 여러개라면, 읽기와 쓰기에 각각 할당해줄 수 있지만,<br>
-제가 사용중인 오드로이드 H2에는 NVMe 슬롯이 하나뿐이기에,<br>
+제가 사용중인 ```ODroid H2``` 에는 NVMe 슬롯이 하나뿐이기에,<br>
 읽기 전용으로만 생성해보겠습니다.
 
 <center>
@@ -132,7 +132,7 @@ SSD가 포맷된다는 경고문을 확인하고 나면<br>
 이처럼 SSD 캐시에 대한 정보를 확인해볼 수 있습니다.
 
 비록 정품 Synology NAS를 사용하는 것은 아니지만,<br>
-XPEnology 만으로도 각종 패치를 통해 대부분의 거의 모든 기능을<br>
+```XPEnolog```y 만으로도 각종 패치를 통해 대부분의 거의 모든 기능을<br>
 활용해볼 수 있는 것 같습니다.
 
 혹시 작업 과정에서 문제가 있거나,<br>
