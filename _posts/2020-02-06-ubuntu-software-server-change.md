@@ -36,7 +36,9 @@ gedit, nano 등 더 익숙하신 에디터를 이용해 작업하셔도 무방�
 ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
 
-<img src="/images/PostImages/200206 Ubuntu Software Server Change/1_before.png">
+<center>
+<img src="/images/PostImages/200206 Ubuntu Software Server Change/1_before.png" style="width: 75%;">
+</center>
 
 ```/etc/apt``` 디렉터리에 위치한 ```sources.list``` 파일이 열렸습니다.<br>
 내용을 보시면 ```kr.archive.ubuntu.com``` 서버로 입력되어있습니다.<br>
@@ -51,7 +53,9 @@ vi를 명령모드로 전환한 뒤 다음 명령을 입력합니다.
 
 ```kr.archive.ubuntu.com``` 구문을 모두 ```mirror.kakao.com```으로 변경해주는 치환명령입니다.
 
-<img src="/images/PostImages/200206 Ubuntu Software Server Change/2_after.png">
+<center>
+<img src="/images/PostImages/200206 Ubuntu Software Server Change/2_after.png" style="width: 75%;">
+</center>
 
 치환이 제대로 이루어졌다면 위와 같이 ```mirror.kakao.com```으로 변경된 것을 보실 수 있습니다.<br>
 이제 다음 명령을 통해 파일을 저장하고 vi에디터를 종료해줍니다.
@@ -75,7 +79,9 @@ vi를 명령모드로 전환한 뒤 다음 명령을 입력합니다.
 ubuntu@desktop:~$ sudo apt-get update
 ```
 
-<img src="/images/PostImages/200206 Ubuntu Software Server Change/3_after_apt.png">
+<center>
+<img src="/images/PostImages/200206 Ubuntu Software Server Change/3_after_apt.png" style="width: 75%;">
+</center>
 
 작업 내용을 확인해보시면 ```mirror.kakao.com```으로부터 소스를 받아 리스트를 갱신중인 것을 확인하실 수 있습니다.
 
