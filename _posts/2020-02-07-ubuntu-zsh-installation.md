@@ -34,7 +34,7 @@ ubuntu@desktop:~$ echo $SHELL
 ```
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/1_check_shell.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/1_check_shell.png" style="width: 75%;">
 </center>
 
 제가 사용중인 Ubuntu OS에 현재 설정된 쉘은 bash 쉘이네요.<br>
@@ -46,7 +46,7 @@ $ sudo apt-get install zsh
 ```
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/2_zsh_change.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/2_zsh_change.png" style="width: 75%;">
 </center>
 
 zsh의 설치가 완료되었다면,<br>
@@ -58,14 +58,14 @@ $ chsh -S /usr/bin/zsh
 ```
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/3_zsh_install.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/3_zsh_install.png" style="width: 75%;">
 </center>
 
 변경이 완료되었다면, Ubuntu를 재부팅해줍니다.<br>
 재부팅 이후 터미널을 실행해보면, zsh의 첫 세팅화면이 나오게됩니다.
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/4_zsh_initialize.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/4_zsh_initialize.png" style="width: 75%;">
 </center>
 
 이 화면에서 0번 메뉴를 선택하면 기본설정으로 진행되고, zsh로 진입하게됩니다.​
@@ -101,11 +101,11 @@ $ sudo apt-get install curl
 ```
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/5_zsh_install_omz.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/5_zsh_install_omz.png" style="width: 75%;">
 </center>
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/6_zsh_complete.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/6_zsh_complete.png" style="width: 75%;">
 </center>
 
 oh my zsh의 설치가 완료되었습니다.
@@ -114,7 +114,7 @@ oh my zsh의 설치가 완료되었습니다.
 여러가지 항목을 직접 커스텀하실 수 있습니다.
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/7_zshrc_vi.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/7_zshrc_vi.png" style="width: 75%;">
 </center>
 
 저는 테마를 agnoster로 지정해 사용중입니다.<br>
@@ -122,7 +122,7 @@ git 디렉토리에서의 브랜치, 커밋 상태 표시 등의 가독성이<br
 가장 낫다고 생각되어 개인적으로 선호하는 테마입니다.
 
 <center>
-<img src="/images/PostImages/200206 Ubuntu zsh Installation/8_zsh_custom.png" style="width: 75%;">
+<img src="/images/PostImages/200207 Ubuntu zsh Installation/8_zsh_custom.png" style="width: 75%;">
 </center>
 
 bash보다 훨씬 기능과 플러그인이 많고,<br>
