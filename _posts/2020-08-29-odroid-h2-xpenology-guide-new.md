@@ -21,8 +21,6 @@ XPEnology를 설치해서 이용하고 있습니다.​
 작년에 출시된 버전인 6.2.1 버전을 설치해 사용중이고,<br>
 관련 가이드도 지난 3월에 작성했었습니다.
 
-​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a>
-
 그런데, 얼마전 XPEnology의 포럼을 뒤지던 중,<br>
 지난 4월에 추가 드라이버 패치가 출시된 것을 확인했고,<br>
 이것을 이용하면 오드로이드 H2에서도 DSM의 최신버전을<br>
@@ -33,12 +31,7 @@ XPEnology를 설치해서 이용하고 있습니다.​
 
 먼저, 기본적인 작업은 지난 3월 작성했던 6.2.1버전의 설치 과정과 동일합니다.<br>
 
-
-[XPEnology] 오드로이드 H2 XPEnology 설치 가이드
-안녕하세요,대학생 1인 앱개발자로 홛동중인LR입니다!​저는 개인 서버로 하드커널사의 ODroid H2 모...
-
-blog.naver.com
-
+​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a>
 
 이전 포스팅을 참고하셔서,<br>
 USB의 PID와 VID값을 grub.cfg에 입력하는 작업까지만 진행한 뒤,<br>
