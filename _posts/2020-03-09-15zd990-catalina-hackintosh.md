@@ -57,9 +57,9 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 저는 현재 아래와 같이 3개의 OS로 트리플부팅을 구현해<br>
 노트북을 사용하고 있습니다.
 
-> <left>mac OS 10.15.3 Cataline<br></left>
-> <left>Ubuntu 19.10 Eoan<br></left>
-> <left>Windows 10 1909</left>
+> mac OS 10.15.3 Cataline<br>
+> Ubuntu 19.10 Eoan<br>
+> Windows 10 1909
 
 조만간 ```Clover / Grub / Windows``` 부트로더 이 3개를 동시에<br>
 꼬이지 않게 설치하는 방법에 대해서도 포스팅해봐야겠습니다.
