@@ -32,8 +32,8 @@ gedit, nano 등 더 익숙하신 에디터를 이용해 작업하셔도 무방�
 
 다음 명령어를 통해 파일을 열어줍니다.
 
-```console
-$ sudo vi /etc/apt/sources.list
+```bash
+ubuntu@desktop:~$ sudo vi /etc/apt/sources.list
 ```
 
 <img src="/images/PostImages/200206 Ubuntu Software Server Change/1_before.png">
@@ -45,7 +45,7 @@ $ sudo vi /etc/apt/sources.list
 
 vi를 명령모드로 전환한 뒤 다음 명령을 입력합니다.
 
-```console
+```bash
 :%s/kr.archive.ubuntu.com/mirror.kakao.com/g
 ```
 
@@ -56,7 +56,7 @@ vi를 명령모드로 전환한 뒤 다음 명령을 입력합니다.
 치환이 제대로 이루어졌다면 위와 같이 ```mirror.kakao.com```으로 변경된 것을 보실 수 있습니다.<br>
 이제 다음 명령을 통해 파일을 저장하고 vi에디터를 종료해줍니다.
 
-```console
+```bash
 :wq
 ```
 
@@ -64,15 +64,15 @@ vi를 명령모드로 전환한 뒤 다음 명령을 입력합니다.
 다시 파일을 열어 작업해주시면 됩니다.<br>
 강제종료 명령은 아래와 같습니다.
 
-```console
+```bash
 :qa!
 ```
 
 수정이 완료되고 저장까지 완료되었다면,<br>
 이제 apt 소스 리스트를 갱신해줍니다.
 
-```console
-$ sudo apt-get update
+```bash
+ubuntu@desktop:~$ sudo apt-get update
 ```
 
 <img src="/images/PostImages/200206 Ubuntu Software Server Change/3_after_apt.png">
