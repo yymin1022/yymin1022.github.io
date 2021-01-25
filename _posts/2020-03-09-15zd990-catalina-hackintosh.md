@@ -5,7 +5,7 @@ author: LR
 categories: [ Linux, Ubuntu, Server ]
 image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh.png"
 featured: false
-hidden: true
+hidden: false
 description: \#Apple \#Catalina \#DIY \#Gram \#Hackintosh \#LG \#macOS \#OS \#UNIX \#15ZD990
 ---
 안녕하세요,<br>
