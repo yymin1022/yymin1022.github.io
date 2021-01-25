@@ -4,7 +4,7 @@ title: "1인개발자 LR의 IT블로그"
 description: "대학생 1인 개발자의 험난한 앱개발 여정"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: 'https://blog-lr.defcon.or.kr/'
+baseurl: 'https://blog-lr.defcon.or.kr'
 url: 'https://blog-lr.defcon.or.kr'
 disqus: 'blog-lr-defcon-or-kr'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
