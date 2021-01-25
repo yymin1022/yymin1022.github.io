@@ -51,7 +51,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 ```DSDT``` 를 한번 건드려봐주셔도 감사하겠습니다.
 
 <center>
-<img src="/images/PostImages/200309 15ZD990 Catalina Hackintosh/3_triple_boot.png" style="width: 75%;">
+<img src="/images/PostImages/200309 15ZD990 Catalina Hackintosh/3_triple_boot.jpg" style="width: 75%;">
 </center>
 
 저는 현재 아래와 같이 3개의 OS로 트리플부팅을 구현해<br>
