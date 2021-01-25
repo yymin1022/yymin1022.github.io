@@ -21,7 +21,7 @@ XPEnology를 설치해서 이용하고 있습니다.​
 작년에 출시된 버전인 6.2.1 버전을 설치해 사용중이고,<br>
 관련 가이드도 지난 3월에 작성했었습니다.
 
-​
+​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a>
 
 그런데, 얼마전 XPEnology의 포럼을 뒤지던 중,<br>
 지난 4월에 추가 드라이버 패치가 출시된 것을 확인했고,<br>
