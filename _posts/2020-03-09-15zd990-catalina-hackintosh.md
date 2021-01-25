@@ -2,7 +2,7 @@
 layout: post
 title:  "[Hackintosh] LG그램15 2019 macOS 10.15 Catalina 커스텀맥"
 author: LR
-categories: [ Linux, Ubuntu, Server ]
+categories: [ Apple, DIY, Gram, LG, macOS, OS ]
 image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh.png"
 featured: false
 hidden: false
