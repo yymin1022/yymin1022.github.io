@@ -5,7 +5,7 @@ author: LR
 categories: [ DIY, DSM, HARDKERNEL, LINUX, NAS, ODROID, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/200311 ODroid H2 XPEnology Guide.png"
 featured: false
-hidden: true
+hidden: false
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요,<br>
@@ -29,7 +29,7 @@ LR입니다!
 제 ```ODroid H2```에 ```XPEnology```를 네이티브로 설치할 수 있게 되었습니다.<br>
 이번 포스팅에서는 그 설치 과정에 대해 한번 가이드를 작성해보도록 하겠습니다.
 
-​
+
 <h2>Juns's Mod? synoboot? 1.04? 1.03?</h2>
 
 먼저, ```XPEnology```를 어떤 기기에서 또는 가상머신에서 부팅하기 위해서는<br>
@@ -57,6 +57,7 @@ DS3615xs  및 DS3617xs를 기반으로 하는 부트로더 버전은 1.03b 버�
 ```ODroid H2```에서 사용하기 위해서는 DS918+ 기반의 1.04b 버전 부트로더를 사용하셔야 합니다.
 
 ​<a href="https://drive.defcon.or.kr/sharing/ka5aBR4Ln" target="_sub">DS918+ 1.04b 부트로더 다운로드</a>
+
 
 <h2>설치준비 : grub 수정과 USB 플래싱</h2>
 
@@ -140,6 +141,7 @@ PC로부터 마운트 해제해줍니다.
 ```grub.cfg``` 의 수정이 완료된 ```synoboot.img``` 파일을<br>
 USB 메모리에 플래싱해줍니다.<br>
 이때 USB 메모리는, 아까 ```USBTreeView``` 로 확인했던 그 USB 메모리여야 합니다.
+
 
 <h2>XPEnology 부팅하고 초기설정 진행하기</h2>
 
