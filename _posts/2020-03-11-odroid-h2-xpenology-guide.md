@@ -30,7 +30,7 @@ XPEnology에 관련해서 해외포럼에 가입도 하고,<br>
 이번 포스팅에서는 그 설치 과정에 대해 한번 가이드를 작성해보도록 하겠습니다.
 
 ​
-<h2 style="text-align: left;">Juns's Mod? synoboot? 1.04? 1.03?</h2>
+<h2>Juns's Mod? synoboot? 1.04? 1.03?</h2>
 
 먼저, XPEnology를 어떤 기기에서 또는 가상머신에서 부팅하기 위해서는<br>
 전용 부트로더가 필요한데요,<br>
@@ -58,7 +58,7 @@ ODroid H2에서 사용하기 위해서는 DS918+ 기반의 1.04b 버전 부트�
 
 ​<a href="https://drive.defcon.or.kr/sharing/ka5aBR4Ln" target="_sub">DS918+ 1.04b 부트로더 다운로드</a>
 
-<h2 style="text-align: left;">설치준비 : grub 수정과 USB 플래싱</h2>
+<h2>설치준비 : grub 수정과 USB 플래싱</h2>
 
 DS918+ 1.04b 부트로더 파일을 다운로드 하셨다면, 파일의 압축을 해제한 뒤 synoboot.img 파일을 준비해주세요.
 
@@ -141,7 +141,7 @@ grub.cfg의 수정이 완료된 synoboot.img 파일을<br>
 USB 메모리에 플래싱해줍니다.<br>
 이때 USB 메모리는, 아까 USBTreeViewer로 확인했던 그 USB 메모리여야 합니다.
 
-<h2 style="text-align: left;">XPEnology 부팅하고 초기설정 진행하기</h2>
+<h2>XPEnology 부팅하고 초기설정 진행하기</h2>
 
 이제, 준비과정이 완료되었습니다.<br>
 synoboot.img의 플래싱이 완료된 USB 메모리를 ODroid H2에 연결해준 뒤, ODroid H2의 전원을 켭니다.
