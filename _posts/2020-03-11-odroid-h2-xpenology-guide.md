@@ -256,7 +256,7 @@ QuickConnect 기능을 사용할 수 없습니다.<br>
 DS918+ 모델로 인식되도록 정상적으로 설치가 된 것을 확인하실 수 있습니다.
 
 <center>
-<img src="/images/PostImages/200311 ODroid H2 XPEnology Guide/19_dsm_3.png" style="width: 75%;">
+<img src="/images/PostImages/200311 ODroid H2 XPEnology Guide/19_dsm_no_update.png" style="width: 75%;">
 </center>
 
 ```XPEnology```에서는 DSM 버전에 따라 ```synoboot.img``` 부트로더가 동작하지 않을 수 있습니다.<br>
