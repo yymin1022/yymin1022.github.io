@@ -5,7 +5,7 @@ author: LR                             # 작성자
 categories: [ NOTICE ]           # 카테고리
 image: "images/Thumbnails/210125 Blog Moving.png"            # 대표이미지
 featured: true                        # 상단 고정에 추가
-hidden: false                          # 포스팅 리스트에서 숨김
+hidden: true                          # 포스팅 리스트에서 숨김
 description: 블로그 이전 관련 공지사항          # 설명
 ---
 
