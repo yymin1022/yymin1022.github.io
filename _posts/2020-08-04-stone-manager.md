@@ -122,6 +122,8 @@ PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
 <img src="/images/PostImages/200804 STONE Manager/7_program_java.png" style="width: 50%;">
 </center>
 
+<br>
+
 ## 다운로드
 
 <a href="https://drive.defcon.or.kr/fsdownload/xf7A9sTsc/Ver%201.0" target="_sub">STONE Manager 다운로드</a>
