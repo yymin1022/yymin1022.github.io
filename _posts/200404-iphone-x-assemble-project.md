@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[Linux] Ubuntu 소프트웨어 서버 변경하기"
+title:  "드래곤볼 에디션 : 아이폰X 직접조립 후기"
 author: LR
-categories: [ Linux, Ubuntu, Server ]
+categories: [ Apple, DIY, iPhone ]
 image: "/images/Thumbnails/200404 iPhone X Assemble Project.png"
 featured: false
 hidden: false
