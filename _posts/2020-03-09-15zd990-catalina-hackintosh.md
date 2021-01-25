@@ -32,6 +32,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 2020년 2월 기준의 최신버전 Kext 파일들로 구성해두었습니다.<br>
 개인 커스텀 사항으로, ```Clover``` 부트로더에는 ```Bootcamp``` 테마가 적용되어 있습니다.
 
+<div style="text-align: left;">
 ## Known Bugs
  + 잠자기모드 진입시 높은확률로 재부팅이 이루어집니다.
  + 별도의 작업 없이 노트북을 덮을 경우 간헐적으로 잠자기가 진입되지 않아 배터리소모와 발열이 발생합니다.
@@ -40,6 +41,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
  + Intel 무선랜 및 블루투스 칩셋에 관한 Kext 문제로, 외장 무선랜카드가 필수입니다.
  + 부팅 직후나 잠자기에서 깨어난 직후 0.1초가량 그래픽 깨짐현상이 발생한 뒤 정상으로 돌아옵니다.
  + Micro SD 슬롯이 동작하지 않습니다. 별도의 USB 어댑터가 필요합니다.
+ </div>
 
 ## Download
 #### 다운로드하려면 <a href="https://drive.defcon.or.kr/sharing/Wr0e2t4gt" target="_sub">여기</a>를 클릭하세요
@@ -57,7 +59,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 저는 현재 아래와 같이 3개의 OS로 트리플부팅을 구현해<br>
 노트북을 사용하고 있습니다.
 
-> mac OS 10.15.3 Cataline<br>
+> mac OS 10.15.3 Catalina<br>
 > Ubuntu 19.10 Eoan<br>
 > Windows 10 1909
 
