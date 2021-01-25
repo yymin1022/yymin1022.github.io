@@ -5,7 +5,7 @@ author: LR
 categories: [ DEVELOPMENT, DIY, JAVA, PANTECH, STONE, WINDOWS ]
 image: "/images/Thumbnails/200804 STONE Manager.png"
 featured: false
-hidden: true
+hidden: false
 description: \#Development \#DIY \#Java \#Pantech \#STONE \#Windows
 ---
 안녕하세요,<br>
