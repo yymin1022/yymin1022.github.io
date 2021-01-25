@@ -5,7 +5,7 @@ author: LR
 categories: [ Linux, Ubuntu, Server ]
 image: "/images/Thumbnails/200206 Ubuntu Software Server Change.png"
 featured: false
-hidden: true
+hidden: false
 description: \#Linux \#Ubuntu \#Server
 ---
 
