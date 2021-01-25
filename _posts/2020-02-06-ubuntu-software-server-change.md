@@ -6,7 +6,7 @@ categories: [ Linux, Ubuntu, Server ]
 image: "/images/Thumbnails/200206 Ubuntu Software Server Change.png"
 featured: false
 hidden: false
-description: \#Linux \#Ubuntu \#Server
+description: \#Linux \#OS \#Ubuntu
 ---
 
 안녕하세요,<br>
