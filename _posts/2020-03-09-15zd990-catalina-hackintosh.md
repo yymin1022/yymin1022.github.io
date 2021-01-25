@@ -3,7 +3,7 @@ layout: post
 title:  "[Hackintosh] LG그램15 2019 macOS 10.15 Catalina 커스텀맥"
 author: LR
 categories: [ Linux, Ubuntu, Server ]
-image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh"
+image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh.png"
 featured: false
 hidden: true
 description: \#Apple \#Catalina \#DIY \#Gram \#Hackintosh \#LG \#macOS \#OS \#UNIX \#15ZD990
@@ -18,7 +18,7 @@ description: \#Apple \#Catalina \#DIY \#Gram \#Hackintosh \#LG \#macOS \#OS \#UN
 어느정도 사용 가능한 정도로 오류 픽스가 되어 자료를 공유해보고자 합니다.
 
 <center>
-<img src="/images/PostImages/200309 15ZD990 Catalina Hackintosh/1_hackintosh_screensaver.png" style="width: 75%;">
+<img src="/images/PostImages/200309 15ZD990 Catalina Hackintosh/1_hackintosh_screensaver.jpg" style="width: 75%;">
 </center>
 
 ~~가벼운 맥북 15인치~~
@@ -42,7 +42,7 @@ x86포럼에서 ```Catalina 10.15.3 Build.19D76``` gho파일을 이용해 설치
 > + Micro SD 슬롯이 동작하지 않습니다. 별도의 USB 어댑터가 필요합니다.
 
 ## Download
-### 다운로드하려면 <a href="https://drive.defcon.or.kr/sharing/Wr0e2t4gt" target="_sub">여기</a>를 클릭하세요
+#### 다운로드하려면 <a href="https://drive.defcon.or.kr/sharing/Wr0e2t4gt" target="_sub">여기</a>를 클릭하세요
 
 <br>
 ```DSDT``` 수정을 여러번 거치면 남아있는 오류들도 수정이 가능할것 같긴 하지만,<br>
