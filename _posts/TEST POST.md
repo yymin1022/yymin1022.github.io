@@ -2,7 +2,7 @@
 layout: post                           # posting / page
 title:  "TEST"                 # 제목
 author: LR                             # 작성자
-categories: [ TEST, HELLO ]           # 카테고리
+categories: []           # 카테고리
 image: "images/Thumbnails/200206 Ubuntu Software Server Change.png"            # 대표이미지
 featured: false                        # 상단 고정에 추가
 hidden: true                          # 포스팅 리스트에서 숨김

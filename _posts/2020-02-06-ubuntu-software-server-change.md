@@ -9,6 +9,8 @@ hidden: true
 description: \#Linux \#Ubuntu \#Server
 ---
 
+<center>
+
 안녕하세요,<br>
 대학생 1인 앱개발자 LR입니다!
 
@@ -81,3 +83,5 @@ ubuntu@desktop:~$ sudo apt-get update
 
 지금까지,<br>
 LR이었습니다!
+
+<center/>

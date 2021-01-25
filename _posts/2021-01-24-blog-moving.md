@@ -2,7 +2,7 @@
 layout: post                           # posting / page
 title:  "블로그 이전 안내"                 # 제목
 author: LR                             # 작성자
-categories: [ NOTICE, TEST ]           # 카테고리
+categories: [ NOTICE ]           # 카테고리
 image: "images/Thumbnails/210125 Blog Moving.png"            # 대표이미지
 featured: true                        # 상단 고정에 추가
 hidden: false                          # 포스팅 리스트에서 숨김
