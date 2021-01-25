@@ -6,7 +6,7 @@ categories: [ Linux, Ubuntu, Server ]
 image: "/images/Thumbnails/200309 15ZD990 Catalina Hackintosh"
 featured: false
 hidden: true
-description: \#Apple \#DIY \#macOS \#OS \#UNIX
+description: \#Apple \#DIY \#Gram \#LG \#macOS \#OS \#UNIX \#15ZD990
 ---
 안녕하세요,<br>
 대학생 1인 앱개발자로 활동중인 LR입니다!
