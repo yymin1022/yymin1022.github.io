@@ -55,6 +55,7 @@ comments: false
   <li>Android : Application / Kernel & OS Build / Smali Edit Porting</li>
   <li>Flutter : Studying</li>
   <li>Java : Console / Swing GUI</li>
+  <li>Linux : Apache2 Hosting / Kernel Build / OS Management / Server Management</li>
   <li>Python : Console / QT GUI / Telegram Bot</li>
   <li>Web : HTML (But it is not Programming) / JS / php / Python Flask</li>
 </ul>
