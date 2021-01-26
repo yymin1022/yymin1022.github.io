@@ -56,7 +56,7 @@ comments: false
   <li>Flutter : Studying</li>
   <li>Java : Console / Swing GUI</li>
   <li>Python : Console / QT GUI / Telegram Bot</li>
-  <li>Web : HTML(But it is not Programming) / JS / php / Python Flask</li>
+  <li>Web : HTML (But it is not Programming) / JS / php / Python Flask</li>
 </ul>
 
 <hr/>
