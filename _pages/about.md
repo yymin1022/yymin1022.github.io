@@ -43,9 +43,9 @@ comments: false
 
 <h3>Awards</h3>
 <ul>
-  <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안</li>
+  <li>2017 STEAM R&E 한국과학창의재단 이사장상 : 보행자의 안전성을 고려하며 IT기술을 활용한 신호등 개선방안 / <a href="https://steam.kofac.re.kr/?p=11978" target="_sub">상세보기</a></li>
   <li>2017 서울시 앱공모전 예선 당선 : 너 왜 거기있어 - 분실물 조회 서비스</li>
-  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다 <a href="https://www.seoulappcontest.org/web/info/winnerView.do?idx=110&year=2019&type=win" target="_sub">상세보기</a></li>
+  <li>2019 스마트서울 모바일 앱공모전 장려상 : Soul Rest - 서울에서 소울을 힐링하다 / <a href="https://www.seoulappcontest.org/web/info/winnerView.do?idx=110&year=2019&type=win" target="_sub">상세보기</a></li>
 </ul>
 
 <hr/>
