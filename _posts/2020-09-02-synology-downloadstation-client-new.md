@@ -34,14 +34,14 @@ OTP를 이용중이신 유저분들은 서버오류 다이얼로그만이<br>
 먼저 표시되도록 하였습니다.
 
 <center>
-<img src="/images/PostImages/20902 Synology DownloadStation Client New/1_program_login.png" style="width: 50%;">
+<img src="/images/PostImages/200902 Synology DownloadStation Client New/1_program_login.png" style="width: 50%;">
 </center>
 
 OTP를 이용중이신 유저분들은, 기존 로그인 다이얼로그에서<br>
 하단의 체크박스만을 체크한 뒤 로그인 해주시면 됩니다.
 
 <center>
-<img src="/images/PostImages/20902 Synology DownloadStation Client New/2_program_otp.png" style="width: 50%;">
+<img src="/images/PostImages/200902 Synology DownloadStation Client New/2_program_otp.png" style="width: 50%;">
 </center>
 
 OTP 사용이 활성화된 경우,<br>
