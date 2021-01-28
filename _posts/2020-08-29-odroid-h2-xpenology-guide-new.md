@@ -11,33 +11,33 @@ description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Syn
 ​안녕하세요,<br>
 대학생 1인 개발자로 활동중인 LR입니다!
 
-저는 현재 하드커널의 오드로이드 H2를 이용해<br>
+저는 현재 하드커널의 ```ODroid H2``` 를 이용해<br>
 자작나스를 구축해 사용중에 있는데요,
 
 Synology 사의 DSM OS를 개조한<br>
-XPEnology를 설치해서 이용하고 있습니다.​
+```XPEnology``` 를 설치해서 이용하고 있습니다.​
 
 다만, 드라이버 문제로 최신버전을 설치할 수는 없었고,<br>
 작년에 출시된 버전인 6.2.1 버전을 설치해 사용중이고,<br>
 관련 가이드도 지난 3월에 작성했었습니다.
 
-그런데, 얼마전 XPEnology의 포럼을 뒤지던 중,<br>
+그런데, 얼마전 ```XPEnology``` 의 포럼을 뒤지던 중,<br>
 지난 4월에 추가 드라이버 패치가 출시된 것을 확인했고,<br>
-이것을 이용하면 오드로이드 H2에서도 DSM의 최신버전을<br>
+이것을 이용하면 ```ODroid H2``` 에서도 DSM의 최신버전을<br>
 설치해 이용할 수 있다는 점을 알아냈습니다.
 
-그래서 오늘 포스팅에서는, synoboot 부트로더에 추가 드라이버를 패치해<br>
-오드로이드 H2에서 DSM의 최신버전을 사용하는 방법에 대해 작성해보고자 합니다.<br>​
+그래서 오늘 포스팅에서는, ```synoboot``` 부트로더에 추가 드라이버를 패치해<br>
+```ODroid H2``` 에서 DSM의 최신버전을 사용하는 방법에 대해 작성해보고자 합니다.<br>​
 
 먼저, 기본적인 작업은 지난 3월 작성했던 6.2.1버전의 설치 과정과 동일합니다.<br>
 
 ​<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide/" target="_sub">지난 게시글 보러가기</a>
 
 이전 포스팅을 참고하셔서,<br>
-USB의 PID와 VID값을 grub.cfg에 입력하는 작업까지만 진행한 뒤,<br>
-Rufus를 이용한 USB에 굽기 전 아래 과정을 먼저 진행해주셔야 합니다.​
+USB의 PID와 VID값을 ```grub.cfg``` 에 입력하는 작업까지만 진행한 뒤,<br>
+```Rufus``` 를 이용한 USB에 굽기 전 아래 과정을 먼저 진행해주셔야 합니다.​
 
-다음 링크에 접속하셔서, synoboot 1.04b 버전 용 추가드라이버 패키지를 다운로드 해줍니다.
+다음 링크에 접속하셔서, ```synoboot``` 1.04b 버전 용 추가드라이버 패키지를 다운로드 해줍니다.
  
 <a href="https://xpenology.com/forum/topic/28321-driver-extension-jun-103b104b-for-dsm623-for-918-3615xs-3617xs/?tab=comments#comment-141934" target="_sub">Synoboot 드라이버 패치 다운로드</a>
 
@@ -47,7 +47,7 @@ DS918+ 부트로더 용 0.13.3버전 드라이버를 다운로드 해주시면 �
 일단 이 압축파일을 풀어둡니다.
 
 grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<br>
-이번에도 synoboot 파일을 OSF Mount를 이용해 마운트 해줍니다.
+이번에도 ```synoboot``` 파일을 ```OSF Mount``` 를 이용해 마운트 해줍니다.
 
 <center>
 <img src="/images/PostImages/200829 ODroid H2 XPEnology Guide New/1_mount_synoboot.png" style="width: 75%;">
@@ -71,7 +71,7 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 
 변경 전 파일은 각각 약 2MB의 크기이고, 변경이 완료된 이후의 파일은 각각 5MB의 크기입니다.​
 
-정상적으로 파일이 변경되었다면, OSF Mount에서 Dismount를 클릭해 마운트를 해제해줍니다.
+정상적으로 파일이 변경되었다면, ```OSF Mount``` 에서 Dismount 를 클릭해 마운트를 해제해줍니다.
 
 이후 과정은 이전 가이드와 동일합니다.
 
@@ -79,16 +79,16 @@ grub.cfg를 편집하기 위해 OSF Mount를 이용한 것과 마찬가지로,<b
 <img src="/images/PostImages/200829 ODroid H2 XPEnology Guide New/4_rufus_flash.png" style="width: 75%;">
 </center>
 
-Rufus를 이용해 USB에 synoboot.img를 플래싱해준 뒤,<br>
-오드로이드 H2에 장착하고 부팅해줍니다.
+```Rufus``` 를 이용해 USB에 ```synoboot.img``` 를 플래싱해준 뒤,<br>
+```ODroid H2``` 에 장착하고 부팅해줍니다.
 
-오드로이드 H2의 유선랜 포트에<br>
+```ODroid H2``` 의 유선랜 포트에<br>
 정상적으로 랜선이 연결되었다면,<br>
 약 5분 이내에 부팅이 완료됩니다.
 
 <a href="find.synology.com" target="_sub">Synology Web Assistant</a>
 
-위 링크에 접속하면, 같은 내부망에 위치하는 Synology 또는 XPEnology 기기를 자동으로 검색해줍니다.
+위 링크에 접속하면, 같은 내부망에 위치하는 Synology 또는 ```XPEnology```  기기를 자동으로 검색해줍니다.
 
 <center>
 <img src="/images/PostImages/200829 ODroid H2 XPEnology Guide New/5_install_1.png" style="width: 75%;">
@@ -134,7 +134,7 @@ Rufus를 이용해 USB에 synoboot.img를 플래싱해준 뒤,<br>
 위 화면이 표시되지 않고 서버오류가 발생한다면,<br>
 드라이버 패치 과정에서 문제가 있을 가능성이 높습니다.
 
-XPEnology 운영체제가 나스로서는<br>
+```XPEnology```  운영체제가 나스로서는<br>
 굉장히 만족스러운 운영체제이지만,<br>
 구버전인 6.2.1 버전만을 사용해야 한다는 것이 아쉬웠습니다.
 
