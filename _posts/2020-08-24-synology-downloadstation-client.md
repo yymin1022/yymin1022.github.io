@@ -29,7 +29,7 @@ __<a href="https://blog-lr.defcon.or.kr/synology-downloadstation-client-new" tar
 ```XPEnology``` 운영체제를 설치해<br>
 개인 Nas로 활용하고 있습니다.
 
-<a href="https://blog-lr.defcon.or.kr/200311-odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a>
+<a href="https://blog-lr.defcon.or.kr/odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a>
 
 ```XPEnology``` 는 ```Synology``` 사의 Nas용 운영체제를<br>
 다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
