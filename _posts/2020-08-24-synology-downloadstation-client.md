@@ -5,7 +5,7 @@ author: LR
 categories: [ DEVELOPMENT, DIY, LINUX, PYQT5, PYTHON, SYNOLOGY, WINDOWS, XPENOLOGY ]
 image: "/images/Thumbnails/200824 Synology DownloadStation Client.png"
 featured: false
-hidden: true
+hidden: false
 description: \#Development \#DIY \#Linux \#PyQt5 \#Python \#Synology \#Windows \#XPEnology
 ---
 __!! 2020년 9월 2일에 V1.1이 배포되었습니다.__
