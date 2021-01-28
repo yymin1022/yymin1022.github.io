@@ -8,378 +8,146 @@ featured: false
 hidden: true
 description: \#Development \#DIY \#Linux \#PyQt5 \#Python \#Synology \#Windows \#XPEnology
 ---
-!! 2020년 9월 2일에 V1.1이 배포되었습니다.
+__!! 2020년 9월 2일에 V1.1이 배포되었습니다.__
 
-본 게시글은 사용법 확인을 위해서만 읽어주시고,
+__본 게시글은 사용법 확인을 위해서만 읽어주시고,__
 
-다운로드는 새 버전의 포스팅을 이용해주세요 !!
+__다운로드는 새 버전의 포스팅을 이용해주세요 !!__
 
-안녕하세요,
-
-대학생 1인 개발자로 활동중인 LR입니다!
-
-​
-
-오늘 포스팅도 평소 자주 작성하던 리뷰 포스팅이 아닌,
-
-제가 직접 개발한 프로그램을 공유하는 포스팅이 되었습니다.
-
-​
-
-저는 현재 ODroid H2 개발보드에
-
-XPEnology 운영체제를 설치해
-
-개인 Nas로 활용하고 있습니다.
-
-
-[XPEnology] 오드로이드 H2 XPEnology 설치 가이드
-안녕하세요,대학생 1인 앱개발자로 홛동중인LR입니다!​저는 개인 서버로 하드커널사의 ODroid H2 모...
-
-blog.naver.com
-
-XPEnology는 Synology 사의 Nas용 운영체제를
-
-다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
-
-​
-
-이 Synology DSM 운영체제에서는
-
-URL이나 토렌트 파일을 이용해
-
-Nas로 간편하게 파일을 다운로드할 수 있는
-
-Download Station이라는 기능을 제공합니다.
-
-
-용량이 큰 파일의 경우, Download Station을 이용해 다운로드 하게되었을 때,
-
-지속적으로 안정적인 속도로 다운로드 작업을 진행하기 때문에
-
-오류 없이 빠른 속도로 다운로드를 할 수 있습니다.
-
-​
-
-하지만 이런 편리한 기능을 제공하는 Download Station 이지만,
-
-매번 DSM에 웹상으로 접속해 이용해야 한다는 점이 불편하게 느껴졌습니다.
-
-​
-
-Android와 iOS의 경우, DS Get 또는 기타 서드파티 애플리케이션을 이용해서
-
-굳이 DSM에 접속하지 않고도 Download Station에
-
-다운로드 작업을 등록하거나 기존 작업을 제어하는 것이 가능합니다.
-
-​
-
-다만, Windows는 이러한 클라이언트 프로그램이 거의 존재하지 않기에
-
-이 기회에 직접 한번 만들어보게 되었습니다.
-
-​
-
-
-프로그램을 최초 실행하게 되면,
-
-위와 같은 로그인 창이 보이게됩니다.
-
-위에서부터 순차적으로 사용중인 DSM의 주소와 계정을 입력해줍니다.
-
-이때, DSM의 주소의 경우 http://hello.synology.me 와 같이
-
-http 또는 https로 시작하는 형태로 입력해주셔야 합니다.
-
-​
-
-이때 입력하는 계정 정보는 별도의 서버에 저장되지 않고,
-
-Login 버튼을 클릭하는 순간 프로그램을 실행하신 위치에 설정파일이 생성되며
-
-해당 파일에 암호화되어 기록됩니다.
-
-이후 실행시에는 해당 파일을 읽어들여
-
-지정된 DSM에 로그인하는 용도로만 활용됩니다.
-
-​
-
-DSM의 주소와 계정 정보를 올바르게 입력했다면,
-
-Login 버튼을 클릭했을 때
-
-프로그램의 메인 화면으로 진입하게 됩니다.
-
-
-맨 위에는 리스트를 새로 불러오기 위한 새로고침 버튼,
-
-그리고 현재 등록되어있는 작업 리스트가 위치합니다.
-
-그 아래로는 다운로드 작업을 추가로 등록하기 위한 입력란과
-
-입력된 작업들을 DSM으로 전송해 다운로드를 시작하는
-
-버튼이 위치합니다.
-
-​
-
-Python으로 작성된 프로그램의 특성상,
-
-반복적으로 리스트의 새로고침을 구현하는 것이 사실상 불가능 하였기에,
-
-부득이하게 수동 새로고침 형태로 버튼을 추가하게 되었습니다.
-
-다만, 다운로드 작업을 추가하거나 기존 작업을 제어하는 경우
-
-자동적으로 새로고침을 하도록 해두었기에,
-
-큰 불편함은 없으리라 생각됩니다.
-
-​
-
-상단 리스트에서 작업을 클릭할 경우,
-
-해당 작업을 제어할 수 있는 메뉴가 표시됩니다.
-
-
-일시정지 또는 이어받기를 클릭할 경우,
-
-진행중인 작업을 일시적으로 정지시키거나
-
-일시정지 상태인 작업을 이어서 진행하도록 합니다.
-
-​
-
-삭제 버튼을 클릭할 경우, 진행중인 작업은 취소되며
-
-목록에서 해당 작업이 삭제됩니다.
-
-​
-
-다운로드 작업을 추가하고자 할 경우,
-
-해당 파일의 URL 또는
-
-토렌트 파일명을 입력해줍니다.
-
-이때, 토렌트 파일의 경우 프로그램을 실행한 위치에 저장해 두어야 합니다.
-
-
-이처럼, 한 줄당 하나의 다운로드 작업을 입력해
-
-한번에 여러 작업을 등록하는 것이 가능합니다.
-
-​
-
-다운로드
-
- 
-Useful Server
-DiskStation은 Windows, Mac 및 Linux 간에 데이터를 손쉽게 관리, 백업 및 공유할 수 있도록 완벽한 기능을 갖춘 NAS(Network Attached Storage) 솔루션을 제공합니다.
-
-drive.defcon.or.kr
-
-다운로드는 위 링크에서 가능하며,
-
-Windows용 exe 파일과 Linux용 바이너리 파일을
-
-모두 배포합니다.
-
-사용중인 운영체제에 맞는 프로그램을 받아 이용하시면 되겠습니다.
-
-​
-
-혹시나, 본 프로그램을 공유하고자 하실 경우,
-
-새로운 글을 작성하거나 파일을 직접 첨부하지 마시고,
-
-본 포스팅의 링크를 첨부해주시면 감사하겠습니다.
-
-​
-
-원본 소스코드는 모두 저의 github를 통해 배포됩니다.
-
-
- 
-yymin1022/Synology_DownloadStation_Client
-Contribute to yymin1022/Synology_DownloadStation_Client development by creating an account on GitHub.
-
-github.com
-
-​
-
-규모가 큰 그런 프로그램은 아니지만,
-
-Synology의 DownloadStation에서 제공하는 중심적인 기능들은
-
-대부분 지원하기 때문에, 어느정도 불편함을 해소할 수 있는
-
-그런 프로그램이라고 생각합니다.
-
-​
-
-많은 사용자를 바라고 개발한 프로그램이라기보다는
-
-제가 편하게 이용하고자 개발하기 시작한 프로그램이다 보니
-
-개발하고 나서의 뿌듯함이 배가 되는 듯 싶습니다.
-
-​
-
-지금까지,
-
-LR이었습니다!
-
-
-안녕하세요,<br>
-대학생 1인개발자로 활동중인 LR입니다!
-
-오늘은, 오랜만에 제품 리뷰가 아닌<br>
-직접 개발한 프로그램을 배포하는 글을 작성해볼까 합니다.
-
-지난 2016년, Pantech에서는 스마트폰 IM-100을 출시했습니다.<br>
-IM-100의 기본 구성품으로는 특이하게도<br>
-블루투스 스피커 겸 무선충전기 역할을 하는,<br>
-```STONE``` 이 함께 제공되었는데요,<br>
-
-이 ```STONE``` 만으로도 스피커와 무선충전기, 그리고 무드램프를 겸하는<br>
-좋은 제품이라고 볼 수 있습니다.
-
-다만, 무드램프 기능의 경우,<br>
-Google Play에서 ```STONE Manager``` 앱을 다운로드 할 수 있는<br>
-안드로이드 스마트폰에서만 기능에 접근할 수 있었습니다.
-
-즉, PC에 ```STONE``` 을 연결해 활용하는 유저들은<br>
-무드램프 기능을 이용할 수 없었습니다.
-
-그래서 저는 최근 ```STONE Manager```<br>
-안드로이드 애플리케이션을<br>
-리버스 엔지니어링을 통해 분석했고,<br>
-```STONE``` 과의 통신하는 코드를 찾아<br>
-PC용 프로그램을 개발해 ```STONE``` 의 무드램프 기능을<br>
-컨트롤할 수 있도록 해보았습니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/1_program_main.png" style="width: 50%;">
-</center>
-
-프로그램의 메인화면은 다음과 같습니다.<br>
-기본적인 무드램프 기능만을 구현해두어,<br>
-사용법이 그다지 복잡하지는 않습니다.
-
-좌측에는 ```STONE``` 무드램프의 색상을 선택하는 ```RadioButton``` 이,<br>
-우측에는 밝기를 지정하는 ```Seekbar``` 가 위치합니다.
-
-색상 선택 부분의 경우,<br>
-기존 ```STONE Manager``` 앱을 통해 선택할 수 있던<br>
-4가지 색상패턴을 고를 수 있게 하였고,<br>
-기존 앱에서 제한적이었던 단일색상 모드는 조금 더 개선해보았습니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/2_program_color.png" style="width: 75%;">
-</center>
-
-위처럼, 메뉴에서 단일 색상을 선택할 경우,<br>
-RGB 색상을 선택하는 창이 열리며,<br>
-모든 색상으로 ```STONE``` 의 무드램프로 점등시킬 수 있습니다.<br>
-다만, RGB LED 특성상<br>
-검은색 등 일부 색의 경우는 ```STONE``` 에서 올바르게 점등되지 않을 수 있습니다.
-
-색상과 밝기를 지정한 뒤 하단의 저장 버튼을 클릭하면<br>
-```STONE``` 에 연결하고 색상을 지정하는 작업을 수행합니다.<br>​
-
-이때, 저장 버튼을 클릭하기 전,<br>
-이미 ```STONE``` 이 PC와 연결된 상태여야 합니다.<br>
-즉, ```STONE``` 에서 PC의 소리가 재생되는 상태에서<br>
-저장 버튼을 클릭해야 올바르게 동작합니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/3_bluetooth_info.png" style="width: 30%;">
-</center>
-
-윈도우10의 설정 >> 장치 >> Bluetooth 항목에서<br>
-위와 같이 ```STONE``` 에 "연결된 음악" 문구가 표시된 상태가<br>
-올바른 상태입니다.
-
-```STONE``` 에 연결이 되어있다면,<br>
-저장버튼을 클릭했을 때 다음과 같은 과정을 통해<br>
-```STONE``` 에 무드램프 기능이 설정됩니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/4_program_run_1.png" style="width: 50%;">
-</center>
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/5_program_run_2.png" style="width: 50%;">
-</center>
-
-/* 주의 */
-
-이 과정에서, 약 30초~60초 정도의 시간이 소요됩니다.<br>
-```PC Java``` 의 특성상, ```Android``` 와 같은 정해진 API가 없어,<br>
-외부 라이브러리를 통해 BT연결을 구현하였습니다.<br>
-```Thread``` 를 이용해 구현된 라이브러리 특성상,<br>
-매 연결 때마다 시스템 BT서비스에 연결하고,<br>
-페어링된 기기 목록과 주변기기를 대조한 뒤,<br>
-올바른 기기를 찾아 데이터를 전송하는 과정에서 소요되는 시간입니다.
-
-다양한 방법을 통해 이 문제를 해결해보고자 하였으나,<br>
-별다른 해결방안을 찾지 못하여<br>
-일단은 이상태로 프로젝트를 배포하게 되었습니다.
-
-정상적으로 과정이 완료되었다면,<br>
-설정이 적용되었다는 문구가 표시되며<br>
-```STONE``` 의 무드램프가 지정한 색상으로 점등됩니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/6_program_run_3.png" style="width: 50%;">
-</center>
-
-PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
-프로그램을 실행하면 다음과 같은 알림창이 표시됩니다.<br>
-이 경우, 확인버튼을 클릭하면<br>
-웹 브라우저를 통해 ```Java``` 다운로드로 이동하니,<br>
-해당 웹 페이지에서 ```Java``` 를 설치한 뒤 프로그램을 다시 실행해주시기 바랍니다.
-
-<center>
-<img src="/images/PostImages/200804 STONE Manager/7_program_java.png" style="width: 50%;">
-</center>
+__<a href="https://blog-lr.defcon.or.kr/200902-synology-downloadstation-client-new" target="_sub">새 버전 포스팅 확인하기</a>__
 
 <br>
+<br>
+
+안녕하세요,<br>
+대학생 1인 개발자로 활동중인 LR입니다!
+
+오늘 포스팅도 평소 자주 작성하던 리뷰 포스팅이 아닌,<br>
+제가 직접 개발한 프로그램을 공유하는 포스팅이 되었습니다.
+
+저는 현재 ODroid H2 개발보드에<br>
+XPEnology 운영체제를 설치해<br>
+개인 Nas로 활용하고 있습니다.
+
+<a href="https://blog-lr.defcon.or.kr/200311-odroid-h2-xpenology-guide">ODroid H2 XPEnology 설치 가이드 포스팅</a>
+
+XPEnology는 Synology 사의 Nas용 운영체제를<br>
+다른 기기에서도 사용할 수 있도록 변조시킨 운영체제입니다.
+
+이 Synology DSM 운영체제에서는<br>
+URL이나 토렌트 파일을 이용해<br>
+Nas로 간편하게 파일을 다운로드할 수 있는<br>
+Download Station이라는 기능을 제공합니다.
+
+<center>
+<img src="/images/PostImages/200824 Synology DownloadStation Client/1_dsm_downloadstation.png" style="width: 50%;">
+</center>
+
+용량이 큰 파일의 경우, Download Station을 이용해 다운로드 하게되었을 때,<br>
+지속적으로 안정적인 속도로 다운로드 작업을 진행하기 때문에<br>
+오류 없이 빠른 속도로 다운로드를 할 수 있습니다.
+
+하지만 이런 편리한 기능을 제공하는 Download Station 이지만,<br>
+매번 DSM에 웹상으로 접속해 이용해야 한다는 점이 불편하게 느껴졌습니다.​
+
+Android와 iOS의 경우, DS Get 또는 기타 서드파티 애플리케이션을 이용해서<br>
+굳이 DSM에 접속하지 않고도 Download Station에<br>
+다운로드 작업을 등록하거나 기존 작업을 제어하는 것이 가능합니다.
+
+다만, Windows는 이러한 클라이언트 프로그램이 거의 존재하지 않기에<br>
+이 기회에 직접 한번 만들어보게 되었습니다.
+
+<center>
+<img src="/images/PostImages/200824 Synology DownloadStation Client/2_client_login.png" style="width: 50%;">
+</center>
+
+프로그램을 최초 실행하게 되면,<br>
+위와 같은 로그인 창이 보이게됩니다.<br>
+위에서부터 순차적으로 사용중인 DSM의 주소와 계정을 입력해줍니다.<br>
+이때, DSM의 주소의 경우 ```http://hello.synology.me``` 와 같이<br>
+http 또는 https로 시작하는 형태로 입력해주셔야 합니다.​
+
+이때 입력하는 계정 정보는 별도의 서버에 저장되지 않고,<br>
+Login 버튼을 클릭하는 순간 프로그램을 실행하신 위치에 설정파일이 생성되며<br>
+해당 파일에 암호화되어 기록됩니다.<br>
+이후 실행시에는 해당 파일을 읽어들여<br>
+지정된 DSM에 로그인하는 용도로만 활용됩니다.
+
+DSM의 주소와 계정 정보를 올바르게 입력했다면,<br>
+Login 버튼을 클릭했을 때<br>
+프로그램의 메인 화면으로 진입하게 됩니다.
+
+<center>
+<img src="/images/PostImages/200824 Synology DownloadStation Client/3_client_main.png" style="width: 50%;">
+</center>
+
+맨 위에는 리스트를 새로 불러오기 위한 새로고침 버튼,<br>
+그리고 현재 등록되어있는 작업 리스트가 위치합니다.<br>
+그 아래로는 다운로드 작업을 추가로 등록하기 위한 입력란과<br>
+입력된 작업들을 DSM으로 전송해 다운로드를 시작하는<br>
+버튼이 위치합니다.
+
+Python으로 작성된 프로그램의 특성상,<br>
+반복적으로 리스트의 새로고침을 구현하는 것이 사실상 불가능 하였기에,<br>
+부득이하게 수동 새로고침 형태로 버튼을 추가하게 되었습니다.<br>
+다만, 다운로드 작업을 추가하거나 기존 작업을 제어하는 경우<br>
+자동적으로 새로고침을 하도록 해두었기에,<br>
+큰 불편함은 없으리라 생각됩니다.
+
+상단 리스트에서 작업을 클릭할 경우,<br>
+해당 작업을 제어할 수 있는 메뉴가 표시됩니다.
+
+<center>
+<img src="/images/PostImages/200824 Synology DownloadStation Client/4_client_main_manage.png" style="width: 50%;">
+</center>
+
+일시정지 또는 이어받기를 클릭할 경우,<br>
+진행중인 작업을 일시적으로 정지시키거나<br>
+일시정지 상태인 작업을 이어서 진행하도록 합니다.
+
+삭제 버튼을 클릭할 경우, 진행중인 작업은 취소되며<br>
+목록에서 해당 작업이 삭제됩니다.
+
+다운로드 작업을 추가하고자 할 경우,<br>
+해당 파일의 URL 또는<br>
+토렌트 파일명을 입력해줍니다.<br>
+이때, 토렌트 파일의 경우 프로그램을 실행한 위치에 저장해 두어야 합니다.
+
+<center>
+<img src="/images/PostImages/200824 Synology DownloadStation Client/5_client_main_register.png" style="width: 50%;">
+</center>
+
+이처럼, 한 줄당 하나의 다운로드 작업을 입력해<br>
+한번에 여러 작업을 등록하는 것이 가능합니다.<br>​
 
 ## 다운로드
 
-<a href="https://drive.defcon.or.kr/fsdownload/xf7A9sTsc/Ver%201.0" target="_sub">STONE Manager 다운로드</a>
+<a href="https://drive.defcon.or.kr/fsdownload/uZCx2TGQf/Ver%201.0" target="_sub">DownloadStation Client 다운로드</a>
 
-다운로드는 상단의 링크에서 가능합니다.<br>
-해당 서버는, 제가 운영중인 개인 서버로,<br>
-악성코드나 유해사이트와는 무관합니다.
-
-exe파일 다운로드시, ```Chrome``` 또는 ```WindowsDefender``` 에 의해,<br>
-악성코드로 오인될 수 있으나,<br>
-저는 일절 악성코드에 관련된 바 없음을 알려드립니다.
-
-## 버그 리포트
-
-다양한 환경에서 테스트해보지는 못한 프로젝트이기에,<br>
-타 OS, 또는 타 ```Bluetooth``` 칩셋을 이용한 PC에서는<br>
-올바르게 동작하지 않는 경우가 있을 수 있습니다.<br>
-이 경우, 댓글 또는 이메일, ```Github Issue```를 통해<br>
-PC정보와 함께 오류 내용을 제보해주시면<br>
-빠른 시일 내 분석하고, 해결하고자 노력하겠습니다.
+다운로드는 위 링크에서 가능하며,<br>
+Windows용 exe 파일과 Linux용 바이너리 파일을<br>
+모두 배포합니다.<br>
+사용중인 운영체제에 맞는 프로그램을 받아 이용하시면 되겠습니다.
 
 ## 소스코드 및 공유
 
-<a href="https://github.com/yymin1022/StoneManager_JAVA" target="_sub">소스코드 보러가기</a>
+<a href="https://github.com/yymin1022/Synology_DownloadStation_Client" target="_sub">소스코드 보러가기</a>
 
 본 프로젝트의 모든 소스코드는 제 ```Github``` 를 통해 공개합니다.<br>
 단, 소스코드를 활용하고자 하시는 경우,<br>
 제 원본 ```Github``` 링크를 남겨주시기 바라며,<br>
-본 포스팅을 공유하는 경우,<br>
-복사가 아닌 포스팅 링크만을 첨부하는 방식으로<br>
-공유해주시기 바랍니다.
+혹시나, 본 프로그램을 공유하고자 하실 경우,<br>
+새로운 글을 작성하거나 파일을 직접 첨부하지 마시고,<br>
+본 포스팅의 링크를 첨부해주시면 감사하겠습니다.
 
-위 사항이 어겨질 경우, 저작권에 관련하여<br>
-법적 대응이 가해질 수 있습니다.
+규모가 큰 그런 프로그램은 아니지만,<br>
+Synology의 DownloadStation에서 제공하는 중심적인 기능들은<br>
+대부분 지원하기 때문에, 어느정도 불편함을 해소할 수 있는<br>
+그런 프로그램이라고 생각합니다.
+
+많은 사용자를 바라고 개발한 프로그램이라기보다는<br>
+제가 편하게 이용하고자 개발하기 시작한 프로그램이다 보니<br>
+개발하고 나서의 뿌듯함이 배가 되는 듯 싶습니다.
+
+지금까지,<br>
+LR이었습니다!
