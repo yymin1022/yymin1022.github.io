@@ -5,7 +5,7 @@ author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/210101 Synology Reverse Proxy HSTS Fix.png"
 featured: false
-hidden: true
+hidden: false
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요!<br>
