@@ -183,7 +183,7 @@ __* 꼭 sudo 로 열어주셔야, 파일 수정이 가능합니다 *__
 정보센터를 확인해보면
 
 <center>
-<img src="/images/PostImages/200830 XPEnology Virtual DSM Serial Number Patch/18_serial_after.png" style="width: 75%;">
+<img src="/images/PostImages/200830 XPEnology Virtual DSM Serial Number Patch/18_serial_after.png" style="width: 50%;">
 </center>
 
 위와 같이 시리얼 번호가 가상 DSM의 것으로 변경된 것을 확인할 수 있습니다.​
