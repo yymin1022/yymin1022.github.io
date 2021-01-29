@@ -25,7 +25,7 @@ DSM의 기본 기능인 역방향 프록시를 이용해<br>
 고질적인 버그가 하나 있습니다.
 
 <center>
-<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/1_hsts_setting.png" style="width: 75%;">
+<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/1_hsts_setting.png" style="width: 50%;">
 </center>
 
 위와 같이 외부에서 들어오는 접속을 https로 설정한 뒤<br>
@@ -60,7 +60,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 그 안에 .htaccess 파일을 위치시켰습니다.
 
 ​<center>
-<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/2_file_htaccess.png" style="width: 75%;">
+<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/2_file_htaccess.png" style="width: 50%;">
 </center>
 
 다음으로 Synology 패키지 센터에서<br>
@@ -81,7 +81,7 @@ Apache 2.4와 Web Station을 설치해줍니다.
 생성을 클릭해줍니다.
 
 <center>
-<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/5_apache_setup.png" style="width: 75%;">
+<img src="/images/PostImages/210101 Synology Reverse Proxy HSTS Fix/5_apache_setup.png" style="width: 50%;">
 </center>
 
 위와 같이 설정을 해준 뒤 확인을 클릭합니다.<br>
