@@ -82,10 +82,10 @@ ubuntu@desktop: $ sudo /etc/init.d apache2 start
 그래서 저는 수동으로 서비스를 시작할 때 입력하던 명령을<br>
 ```.bashrc``` 파일의 맨 하단에 입력해줌으로써,<br>
 ```root``` 계정의 ```Bash Shell``` 이 ```Initialize``` 되는 시점에<br>
-서비스도 함꼐 시작되도록 해주었습니다.
+서비스도 함께 시작되도록 해주었습니다.
 
 <center>
-<img src="/images/PostImages/200814 Synology Docker Ubuntu Service Startup/3_docker_command.png" style="width: 75%;">
+<img src="/images/PostImages/200814 Synology Docker Ubuntu Service Startup/3_docker_command.png" style="width: 50%;">
 </center>
 
 이렇게 해주면, GUI 환경만으로 제공되는<br>
