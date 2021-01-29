@@ -5,7 +5,7 @@ author: LR
 categories: [ DIY, DSM, HARDKERNEL, LINUX, NAS, ODROID, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/201224 XPEnology CPU Info Change.png"
 featured: false
-hidden: true
+hidden: false
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요!<br>
