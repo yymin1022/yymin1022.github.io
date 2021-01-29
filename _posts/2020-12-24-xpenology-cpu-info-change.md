@@ -74,6 +74,8 @@ root@UsefulServer:/volume1/Download# ./ch_cpuinfo
 <img src="/images/PostImages/201224 XPEnology CPU Info Change/5_terminal_3.png" style="width: 75%;">
 </center>
 
+<br>
+
 <center>
 <img src="/images/PostImages/201224 XPEnology CPU Info Change/6_terminal_4.png" style="width: 75%;">
 </center>
