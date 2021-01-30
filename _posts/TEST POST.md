@@ -19,7 +19,9 @@ TEST POSTING
 
 #### So how do we do spoilers?
 
-~~ TEST CANCELING LINE ~~
+~~TEST CANCELING LINE~~
+
+__TEST BOLD LINE__
 
 ### 내용숨기기(스포일러) 사용법
 
