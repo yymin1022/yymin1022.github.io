@@ -5,7 +5,7 @@ author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/200901 Synology Jellyfin Install.png"
 featured: false
-hidden: true
+hidden: false
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요,<br>
@@ -57,6 +57,8 @@ Docker의 메인화면입니다.<br>
 <center>
 <img src="/images/PostImages/200901 Synology Jellyfin Install/3_docker_registry.png" style="width: 100%;">
 </center>
+
+<br>
 
 <center>
 <img src="/images/PostImages/200901 Synology Jellyfin Install/4_docker_registry_jellyfin.png" style="width: 100%;">
