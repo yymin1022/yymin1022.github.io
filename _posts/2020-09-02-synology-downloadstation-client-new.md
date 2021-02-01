@@ -4,8 +4,8 @@ title:  "[Windows/Linux] Synology Download Station 클라이언트 V1.1"
 author: LR
 categories: [ DEVELOPMENT, DIY, LINUX, PYQT5, PYTHON, SYNOLOGY, WINDOWS, XPENOLOGY ]
 image: "/images/Thumbnails/200824 Synology DownloadStation Client.png"
-featured: false
-hidden: false
+featured: true
+hidden: true
 description: \#Development \#DIY \#Linux \#PyQt5 \#Python \#Synology \#Windows \#XPEnology
 ---
 안녕하세요,<br>

@@ -4,8 +4,8 @@ title:  "[Windows] Pantech STONE Manager"
 author: LR
 categories: [ DEVELOPMENT, DIY, JAVA, PANTECH, STONE, WINDOWS ]
 image: "/images/Thumbnails/200804 STONE Manager.png"
-featured: false
-hidden: false
+featured: true
+hidden: true
 description: \#Development \#DIY \#Java \#Pantech \#STONE \#Windows
 ---
 안녕하세요,<br>

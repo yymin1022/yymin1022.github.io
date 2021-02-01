@@ -4,8 +4,8 @@ title: "[Synology] Jellyfin 설치로 미디어스트리밍 서비스 구축하�
 author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/200901 Synology Jellyfin Install.png"
-featured: false
-hidden: false
+featured: true
+hidden: true
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요,<br>
