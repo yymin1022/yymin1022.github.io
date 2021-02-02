@@ -5,7 +5,7 @@ author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/210202 Synology Docker VSCode Install.png"
 featured: true
-hidden: false
+hidden: true
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요!<br>
