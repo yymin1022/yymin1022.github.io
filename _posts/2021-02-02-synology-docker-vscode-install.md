@@ -108,7 +108,7 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 웹 브라우저를 통해 접속해봅니다.
 
 군부대 특성상 저는 포트를 통한 접속이 자유롭지 못하기에<br>
-따로 역방향프록시를 설정해 
+따로 역방향프록시를 설정해두었습니다.
 
 <center>
 <img src="/images/PostImages/210202 Synology Docker VSCode Install/8_vscode_login.png" style="width: 100%;">
