@@ -25,7 +25,7 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 인터넷이 사용 가능한 공간에서 코딩을 하며 시간을 보냅니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/0_vscode_usage.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/0_vscode_usage.png" style="width: 100%;">
 </center>
 
 군부대 특성상 별도의 프로그램을 자유롭게 설치할 수 없을 뿐더러,<br>
@@ -48,7 +48,7 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 먼저, ```XPEnology``` 에서 패키지센터를 통해 ```Docker``` 를 설치해줍니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/1_docker_main.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/1_docker_main.png" style="width: 75%;">
 </center>
 
 이후, ```Docker``` 의 좌측 메뉴에서 레지스트리 메뉴로 이동한 뒤,<br>
@@ -57,13 +57,13 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 ```latest``` 태그를 지정해 다운로드를 해줍니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/2_docker_vscode_search.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/2_docker_vscode_search.png" style="width: 75%;">
 </center>
 
 <br>
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/3_docker_vscode_tag.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/3_docker_vscode_tag.png" style="width: 75%;">
 </center>
 
 다운로드가 완료되었다면 ```Docker``` 의 좌측 메뉴 중 이미지 메뉴로 이동합니다.<br>
@@ -72,27 +72,27 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 컨테이너 이름은 적절하게 자유롭게 입력해주시면 됩니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/4_docker_vscode_add_1.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/4_docker_vscode_add_1.png" style="width: 75%;">
 </center>
 
 하단의 고급 설정을 클릭해 메뉴로 진입합니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/5_docker_vscode_add_2.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/5_docker_vscode_add_2.png" style="width: 75%;">
 </center>
 
 먼저, NAS가 부팅된 이후 자동으로 서비스가 시작되도록<br>
 자동 재시작 활성화 항목을 체크해줍니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/6_docker_vscode_add_3.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/6_docker_vscode_add_3.png" style="width: 75%;">
 </center>
 
 이후, 포트 설정 탭으로 이동해 로컬 포트 항목을 원하는 포트로 지정해줍니다.<br>
 이 포트를 이용해 ```VS Code``` 화면으로 접속하므로, 꼭 기억해주셔야 합니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/7_docker_vscode_add_4.png" style="width: 50%;">
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/7_docker_vscode_add_4.png" style="width: 75%;">
 </center>
 
 환경 탭에서 중요한 두가지를 설정해주셔야 합니다.
@@ -111,15 +111,15 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 따로 역방향프록시를 설정해 
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/8_vscode_login.png" style="width: 50%;">
-</center
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/8_vscode_login.png" style="width: 100%;">
+</center>
 
 이렇게 로그인창이 보인다면 정상적으로 ```VS Code``` 에 접속이 된 것입니다.<br>
 설정 과정에서 ```PASSWORD``` 환경 변수로 지정해준 비밀번호를 입력해줍니다.
 
 <center>
-<img src="/images/PostImages/210202 Synology Docker VSCode Install/9_vscode_main.png" style="width: 50%;">
-</center
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/9_vscode_main.png" style="width: 100%;">
+</center>
 
 위와 같이 ```VS Code``` 화면이 보인다면 모든 작업이 완료된 것입니다.<br>
 이제 각종 플러그인과 익스텐션을 설치하고 자유롭게 코딩을 할 수 있는 환경이 구축되었습니다.
