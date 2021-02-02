@@ -24,6 +24,10 @@ NAS를 이용해서 무언가를 하는것의 중요성을 깨닫게 되었습�
 사이버 지식 정보방(이하 사지방)이라고 불리는 부대 내<br>
 인터넷이 사용 가능한 공간에서 코딩을 하며 시간을 보냅니다.
 
+<center>
+<img src="/images/PostImages/210202 Synology Docker VSCode Install/0_vscode_usage.png" style="width: 50%;">
+</center>
+
 군부대 특성상 별도의 프로그램을 자유롭게 설치할 수 없을 뿐더러,<br>
 네트워크를 통한 접속에도 포트 제한이 있는 등 제약이 많은데요,
 
