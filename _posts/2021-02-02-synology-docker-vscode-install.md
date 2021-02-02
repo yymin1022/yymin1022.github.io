@@ -4,8 +4,8 @@ title:  "[Synology] Docker에 VSCode 설치해서 원격으로 코딩하기"
 author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/210202 Synology Docker VSCode Install.png"
-featured: false
-hidden: true
+featured: true
+hidden: false
 description: \#DIY \#DSM \#HardKernel \#Linux \#NAS \#ODroid \#OS \#Server \#Synology \#XPEnology
 ---
 안녕하세요!<br>
