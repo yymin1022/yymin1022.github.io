@@ -122,7 +122,7 @@ Login 버튼을 클릭했을 때<br>
 
 ## 다운로드
 
-<a href="https://drive.defcon.or.kr/fsdownload/uZCx2TGQf/Ver%201.0" target="_sub">DownloadStation Client 다운로드</a>
+<a href="https://drive.defcon.or.kr/sharing/EC5q5AyT3" target="_sub">DownloadStation Client 다운로드</a>
 
 다운로드는 위 링크에서 가능하며,<br>
 ```Windows``` 용 exe 파일과 ```Linux``` 용 바이너리 파일을<br>
