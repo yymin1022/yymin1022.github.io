@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Synology/Linux] Docker Ubuntu 서비스 자동시작"
+title:  "[Synology] 역방향 프록시 HSTS 문제 해결하기"
 author: LR
 categories: [ DIY, DSM, LINUX, NAS, OS, SERVER, SYNOLOGY, XPENOLOGY ]
 image: "/images/Thumbnails/210101 Synology Reverse Proxy HSTS Fix.png"
