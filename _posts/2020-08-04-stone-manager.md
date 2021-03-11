@@ -126,7 +126,7 @@ PC에 ```Java JRE 또는 JDK``` 가 설치되지 않은 경우,<br>
 
 ## 다운로드
 
-<a href="https://drive.defcon.or.kr/fsdownload/xf7A9sTsc/Ver%201.0" target="_sub">STONE Manager 다운로드</a>
+<a href="https://drive.defcon.or.kr/sharing/bQ0ENoRiQ" target="_sub">STONE Manager 다운로드</a>
 
 다운로드는 상단의 링크에서 가능합니다.<br>
 해당 서버는, 제가 운영중인 개인 서버로,<br>
