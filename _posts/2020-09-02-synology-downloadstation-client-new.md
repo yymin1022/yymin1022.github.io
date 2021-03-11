@@ -63,7 +63,7 @@ __손상된 파일이 다운로드되는 문제가 있습니다.<br>__
 __이 경우, 폴더 전체를 다운받으신 뒤<br>__
 __압축 해제하여 이용해주시면 감사하겠습니다. !!__
 
-<a href="https://drive.defcon.or.kr/fsdownload/pFi9wgI6c/Ver%201.1" target="_sub">DownloadStation Client 다운로드</a>
+<a href="https://drive.defcon.or.kr/sharing/xsYCOS3ds" target="_sub">DownloadStation Client 다운로드</a>
 
 지난 배포 버전에서 OTP 관련 의견 제시해주신<br>
 클리앙의 쿠니s님께 감사의 말씀을 전하며<br>
